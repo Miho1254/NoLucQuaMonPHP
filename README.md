@@ -13,7 +13,7 @@
 
 - [Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/): CSS Framework giúp phát triển trang web nhanh gọn lẹ nhất là khi deadline là 30/12/2023???
 - [Ajax](https://google.com): Hình như chả ai biết dùng thằng này nhưng vẫn ghi vào cho đẹp.
-- [Jquery 3](https://jquery.com/): Hình như chả ai xài thằng nữa vì chuyển qua xài ReactJS hết rồi.
+- [Jquery 3](https://jquery.com/): Hình như chả ai xài thằng này nữa vì chuyển qua xài ReactJS hết rồi.
 - [Fontawesome 6](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css): Thư viện ai cũng xài để lấy icon cho web.
 ## Tổ chức dự án:
 
