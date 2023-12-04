@@ -13,9 +13,11 @@
 
 - [Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/): CSS Framework giúp phát triển trang web nhanh gọn lẹ nhất là khi deadline là 30/12/2023???
 - [Ajax](https://google.com): Hình như chả ai biết dùng thằng này nhưng vẫn ghi vào cho đẹp.
-- [Jquery 3](https://jquery.com/): Hình như chả ai xài thằng này nữa vì chuyển qua xài ReactJS hết rồi.
+- [Jquery 3](https://jquery.com/): Hình như chả ai xài thằng nàynữa vì chuyển qua xài ReactJS hết rồi.
 - [Fontawesome 6](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css): Thư viện ai cũng xài để lấy icon cho web.
 ## Tổ chức dự án:
+
+<h3>Dự án được tổ chức theo mô hình MVC</h3>
 
 ## Thư mục `assets`:
 Thư mục này chứa các tài nguyên static của website.
@@ -62,6 +64,10 @@ Tệp tin chứa danh sách các tệp tin và thư mục không muốn đẩy l
 
 - **.gitignore:** Chứa các mục bạn muốn bỏ qua khi đẩy lên Git, như thư mục `vendor`, `config.php` hoặc các tệp cấu hình cụ thể.
 
+## Tệp tin `.htaccess`:
+Chứa các điều hướng server của Apache.
+
+- **.htaccess:** Chứa các điều hướng server của Apache.
 
 ## Triển khai và Quản lý phiên bản:
 
@@ -82,7 +88,7 @@ Tệp tin chứa danh sách các tệp tin và thư mục không muốn đẩy l
 <h3> Setup website </h3>
 
 1. Clone dự án từ kho lưu trữ.
-2. Di chuyển project đến `public_html, v.v...` tuỳ thuộc vào hosting.
+2. Di chuyển project đến `public_html, v.v...` tuỳ thuộc vào hosting đảm bảo thư mục luôn nằm ở root của Apache hoặc Nginx.
 3. Đảm bảo máy chủ đã cài PHP 8.0 và MySQL.
 
 <h3> Setup database </h3>
@@ -98,6 +104,7 @@ Tệp tin chứa danh sách các tệp tin và thư mục không muốn đẩy l
 9. Truy cập vào `domain.com/php/createnewAdmin.php` rồi nhập info admin mới.
 10. Chỉnh sửa dòng `$disable_create_new_admin` thành `true` tránh bị hacker xâm nhập.
 
+<strong>!! Nếu deploy code trên XAMPP / WAMP thì nhớ để ở thư mục `root (htdocs)`. Tuyệt đối không để trong `htdocs/thu_muc/`</strong>
 ## Tài liệu học tập
 
 Để học cách dự án hoạt động, hãy tham khảo các tài liệu dưới đây:

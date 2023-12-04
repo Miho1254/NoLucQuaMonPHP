@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+
+# Bật chế độ rewrite engine. Điều này làm cho máy chủ Apache sử dụng module mod_rewrite để xử lý các quy tắc chuyển hướng.
+RewriteEngine on
+
+# Xác định đường dẫn cơ bản cho việc chuyển hướng. Nếu ứng dụng web của bạn không nằm ở thư mục gốc, bạn cần chỉ định đường dẫn này. Trong trường hợp này, đường dẫn cơ bản là thư mục gốc (/).
+RewriteBase /
+
+# Điều kiện kiểm tra xem đường dẫn yêu cầu không phải là tệp tin thực tế (-f). Nếu điều kiện này đúng, nghĩa là nếu tệp không tồn tại, quy tắc rewrite sau đó sẽ được áp dụng.
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Điều kiện kiểm tra xem đường dẫn yêu cầu không phải là thư mục thực tế (-d). Nếu điều kiện này đúng, nghĩa là nếu thư mục không tồn tại, quy tắc rewrite sau đó sẽ được áp dụng.
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Đây là quy tắc chuyển hướng. Nếu cả hai điều kiện trên đều đúng, mọi yêu cầu sẽ được chuyển hướng đến tệp index.php.
+RewriteRule ^(.*)$ index.php
+
+</IfModule>
