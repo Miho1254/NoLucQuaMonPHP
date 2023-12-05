@@ -1,2 +1,14 @@
-<?php 
-//Đúng chỗ để đổ layout vào rồi đó
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $contact['title']; ?></title>
+</head>
+
+<body>
+    <?php echo $contact['content']; ?>
+</body>
+
+</html>

@@ -15,7 +15,7 @@ function handleRoute($route, $params)
 
         case '/contact':
             // Xử lý cho trang liên hệ
-            echo 'Contact Us Page';
+            require 'controllers/contact.controller.php';
             break;
 
         case '/user':

@@ -1,0 +1,78 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* margin top */
+.mt-10{
+    margin-top: 100px;
+}
+
+/* HEADER */
+/* NAVBAR */
+.top-bar{
+    height: 25px;
+}
+
+.navbar img{
+    max-height: 40px;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, #fc9c03, #dc5323);
+    color: white;
+    height: 60px;
+    justify-content: center;
+}
+
+.nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Artiest Education */
+.Artiest-Education_img img{
+    height: 400px;
+}
+
+.btn-ae {
+    display: inline-flex;
+    background-color: #FF6600;
+    text-decoration: none; /* Initial text-decoration property */
+    transition: background-color 0.3s ease; /* Initial transition property */
+    
+}
+
+.btn-ae:hover {
+    background-color: #CC5200;
+    text-decoration: none; /* You can remove this line if you don't want to change text-decoration on hover */
+}
+
+.Watch-Now{
+    background-color: #FF6600;
+}
+
+.btn-wn {
+    color: white;
+    transition: background-color 0.3s ease;
+    border: 2px solid white !important;
+
+
+}
+
+.btn-wn:hover {
+    background-color: white;
+    text-decoration: none;
+    color: gray;
+}
+
+.About-Us img{
+    max-height: 60px;
+}
+
+.Education_img {
+    background: url('/assets/images/bg4.jpg') center center fixed;
+    background-size: cover;
+    color: #fff; /* Màu chữ trên banner */
+    text-align: center;
+    padding: 100px; /* Điều chỉnh khoảng cách nếu cần thiết */
+}
