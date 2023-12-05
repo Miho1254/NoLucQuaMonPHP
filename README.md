@@ -19,6 +19,18 @@
 
 <h3>Dự án được tổ chức theo mô hình MVC</h3>
 
+## Thư mục `controllers`:
+Thư mục này chứa các controller cho từng page của website.
+
+- **index.controller.php:** Chứa controller của page trang chủ.
+- ...
+
+## Thư mục `views`:
+Thư mục này chứa các view cho từng page của website.
+
+- **index.view.php:** Chứa view của page trang chủ.
+- ...
+
 ## Thư mục `assets`:
 Thư mục này chứa các tài nguyên static của website.
 
