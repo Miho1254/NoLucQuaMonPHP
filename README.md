@@ -33,13 +33,6 @@ Thư mục này chứa các tệp tin include, giúp tái sử dụng mã nguồ
 - **footer.php:** Tệp tin chứa mã HTML của phần cuối trang.
 - ...
 
-## Thư mục `pages`:
-Thư mục này chứa các tệp tin của các trang cụ thể của trang web.
-
-- **about.php:** Trang giới thiệu.
-- **contact.php:** Trang liên hệ.
-- ...
-
 ## Thư mục `php`:
 Thư mục này chứa các tệp tin PHP của dự án.
 
