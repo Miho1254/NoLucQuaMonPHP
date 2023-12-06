@@ -89,19 +89,21 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
-
         </div>
-        <div class="Artiest-Education container ">
+
+
+        <div class="Artiest-Education container">
             <div class="row">
-                <div class="col-7">
-                    <div class="Artiest-Education_content mt-10">
-                        <h2><span>
+                <div class="col-md-7">
+                    <div class="Artiest-Education_content mt-md-10">
+                        <h2>
+                            <span>
                                 <strong>
                                     <span style="color: #000000;">Artiest</span>
                                     <span style="color: #ff6600;">Education</span>
                                 </strong>
-                            </span></h2>
+                            </span>
+                        </h2>
                         <p class="mt-3">“Mỗi đứa trẻ là một tài năng thiên bẩm” (Albert Einstein). Do đó, Artiest Education không chỉ giúp khơi dậy niềm đam mê nghệ thuật mà còn mang đến một môi trường học tập, vui chơi bổ ích, đóng góp cho sự phát triển toàn diện của các bé.
                             <br><br>
                             Với sự đầu tư nghiêm túc về chất lượng chuyên môn & cơ sở vật chất chuẩn quốc tế, Artiest Education mong muốn tạo ra một nền tảng giáo dục tốt nhất cho thế hệ trẻ về cả tài năng, tâm hồn & nhân cách.
@@ -112,13 +114,14 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-5">
-                    <div class="Artiest-Education_img ml-5">
-                        <img src="../assets/images/children_PNG18038-copy.png" alt="">
+                <div class="col-md-5 mt-4 mt-md-0">
+                    <div class="Artiest-Education_img">
+                        <img src="../assets/images/children_PNG18038-copy.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
+
 
         <div class="Watch-Now container-fluid mt-10 pb-2">
             <div class="Watch-Now_content container">
@@ -139,6 +142,7 @@
             </div>
         </div>
 
+
         <div class="About-Us container mt-3">
             <h3 class="text-center ">
                 <span style="color: #000000;">Artiest Education</span>
@@ -146,7 +150,7 @@
             </h3>
             <p class="my-4 text-center">Mời các bậc phụ huynh cùng tìm hiểu các giá trị đích thực mà tập thể đội ngũ Giáo viên và Cán bộ của Trung tâm muốn mang đến cho các con.</p>
             <div class="row">
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="About-Us_img d-flex justify-content-center">
                         <img src="../assets/images/icon-1.jpg" alt="">
                     </div>
@@ -155,7 +159,7 @@
                         <p class="text-center ">Các giáo viên có trình độ chuyên môn cao, chuyên nghiệp, nhiệt huyết và yêu trẻ.</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="About-Us_img d-flex justify-content-center">
                         <img src="../assets/images/ICON-2.jpg" alt="">
                     </div>
@@ -164,7 +168,7 @@
                         <p class="text-center ">Giáo trình hiện đại, đa dạng từ các nước tiên tiến. PP giảng dạy khoa học & tâm lý.</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="About-Us_img d-flex justify-content-center">
                         <img src="../assets/images/ICON-4.jpg" alt="">
                     </div>
@@ -173,7 +177,7 @@
                         <p class="text-center ">Trang thiết bị hiện đại và tiện nghi, môi trường học tập chuyên nghiệp – an toàn.</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="About-Us_img d-flex justify-content-center">
                         <img src="../assets/images/ICON-6.jpg" alt="">
                     </div>
@@ -185,14 +189,149 @@
             </div>
         </div>
 
-        <div class="Education container" style="height: 500px;">
-            <div class=" Education_img jumbotron-fluid">
-                <h1 class="display-4">Your Banner Text</h1>
-                <p class="lead">Additional information or description goes here.</p>
+
+        <div class="Education container-fluid mt-3">
+            <div class="Education_title container">
+                <h2 class="pt-5 text-center"><span>Chương trình đào tạo năng khiếu tại Artiest Education</span></h2>
+                <p class="text-center"><span>Âm nhạc và Nghệ thuật là một phần không thể thiếu trong quá trình phát triển nhân cách của trẻ nhỏ. Các em cần một sân chơi lành mạnh để thêm yêu thương, gắn kết, sẻ chia cũng như phát triển mọi kỹ năng sống của mình.</span></p>
+            </div>
+            <div class="Education_card container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="../assets/images/111.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="../assets/images/nhac-cu-dan-toc.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="../assets/images/dance.yoga_.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="../assets/images/hoi-hoa-nghe-thuat.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
+
+        <div class="container-fluid" style="background-color: #2E8914;">
+            <div class="subject-education container">
+                <div class="row">
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/học-đàn-piano.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học đàn piano</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/học-đàn-organ.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học đàn organ</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/học-đàn-guitar.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học đàn guitar</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/học-đàn-violon.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học đàn violon</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/học-trống-cajon.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học trống carjon</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/my-thuat-ung-dung.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học mỹ thuật ứng dụng</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mt-3">
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/học-thiết-kế-thời-trang.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học thiết kế thời trang</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/Cờ-vua-cờ-tướng.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học cờ vua - cờ tướng</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/học-thanh-nhạc.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học thanh nhạc</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/mc-nhí.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học làm mc nhí</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/học-mua-ballet.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học múa ballet</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="">
+                            <img src="../assets/images/học-đàn-ukyulele.png" alt="">
+                        </a>
+                        <div class="sec">
+                            <p>Học đàn ukulele</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
+
+    </div>
+
 </body>
 
 </html>
