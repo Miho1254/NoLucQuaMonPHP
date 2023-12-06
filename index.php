@@ -1,40 +1,31 @@
 <?php
 
-function handleRoute($route, $params)
+// Lấy đường dẫn và tham số từ URL
+$request_uri = parse_url($_SERVER['REQUEST_URI'])['path'];
+
+//routes
+$routes = [
+    '/' => 'controllers/index.controller.php',
+    '/about' => 'controllers/about.controller.php',
+    '/contact' => 'controllers/contact.controller.php'
+];
+
+function abort($code = 404)
 {
-    switch ($route) {
-        case '/':
-            // Xử lý cho trang chủ
-            require 'controllers/index.controller.php';
-            break;
+    http_response_code($code);
 
-        case '/about':
-            // Xử lý cho trang giới thiệu
-            require 'controllers/about.controller.php';
-            break;
+    include "views/{$code}.view.php";
+    die();
+}
 
-        case '/contact':
-            // Xử lý cho trang liên hệ
-            require 'controllers/contact.controller.php';
-            break;
-
-        case '/user':
-            // Xử lý cho trang thông tin người dùng
-            $userId = isset($params['id']) ? $params['id'] : 'Unknown';
-            echo 'User Profile Page for User ID: ' . $userId;
-            break;
-
-        default:
-            // Xử lý cho trang không tồn tại
-            require './views/404.view.php';
-            break;
+function RoutesToController($uri, $routes)
+{
+    if (array_key_exists($uri, $routes)) {
+        include $routes[$uri];
+    } else {
+        abort();
     }
 }
 
-// Lấy đường dẫn và tham số từ URL
-$request_uri = $_SERVER['REQUEST_URI'];
-$route = parse_url($request_uri, PHP_URL_PATH);
-$params = $_GET;
 
-// Xử lý route và tham số
-handleRoute($route, $params);
+RoutesToController($request_uri, $routes);

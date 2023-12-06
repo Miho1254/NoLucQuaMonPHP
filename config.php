@@ -1,10 +1,10 @@
 <?php
 //Database config
-$database_host = 'localhost';
+$database_host = 'miho.dev';
 $database_port = 3306;
-$database_username = 'root';
-$database_password = '';
-$database_name = 'awesomewebsite';
+$database_username = 'miho_miho';
+$database_password = 'Miho1254';
+$database_name = 'miho_projectPHP';
 
 // Sau khi đã tạo database xong nhớ bật cái này lên
 // Không là hacker nó vào nó xoá cmnl database đấy

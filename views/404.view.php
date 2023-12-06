@@ -6,7 +6,7 @@
     <title><?php echo $data['title']; ?></title>
 </head>
 <body>
-    <h1>GG</h1>
-    <p>WP</p>
+    <h1>404 Not Found</h1>
+    <p>Hình như trang bạn tìm kiếm không tồn tại.</p>
 </body>
 </html>
