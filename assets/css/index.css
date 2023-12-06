@@ -81,6 +81,59 @@ body {
     width: auto;
 }
 
-.card{
+.ec{
     border: 0px !important;
+    border-radius: 0.25rem !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.Parents-feeling {
+    background: url('/assets/images/parent-feeling-bg.jpg');
+    background-size: cover;
+    height: 390px;
+}
+
+.pt-md-6{
+    padding-top: 60px;
+}
+
+.News{
+    background-color:#E2E2E2;
+}
+
+.post{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.news-item{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.news-img{
+    height: 100%;
+    width: 30%;
+    background-color: red;
+}
+
+.news-content{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+
+}
+
+.footer-container{
+    height: 150px;
+}
+
+.footer-content{
+    height: 50px;
+}
+
+.footer-logo img{
+    height: 80px;
 }

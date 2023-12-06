@@ -11,6 +11,10 @@
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -197,23 +201,23 @@
             </div>
             <div class="Education_card container">
                 <div class="row">
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 mb-4">
+                        <div class="card ec">
                             <img src="../assets/images/111.png" alt="">
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 mb-4">
+                        <div class="card ec">
                             <img src="../assets/images/nhac-cu-dan-toc.png" alt="">
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 mb-4">
+                        <div class="card ec">
                             <img src="../assets/images/dance.yoga_.png" alt="">
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card">
+                    <div class="col-3 mb-4">
+                        <div class="card ec">
                             <img src="../assets/images/hoi-hoa-nghe-thuat.png" alt="">
                         </div>
                     </div>
@@ -222,113 +226,290 @@
         </div>
 
 
-        <div class="container-fluid" style="background-color: #2E8914;">
-            <div class="subject-education container">
+        <div class="container-fluid " style="background-color: #2E8914;">
+            <div class="subject-education container text-center ">
                 <div class="row">
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/học-đàn-piano.png" alt="">
+                    <div class="col-2  mt-4  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/học-đàn-piano.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học đàn piano</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học đàn piano</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/học-đàn-organ.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei"><img src="../assets/images/học-đàn-organ.png" alt=""></div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học đàn organ</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học đàn organ</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/học-đàn-guitar.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei"><img src="../assets/images/học-đàn-guitar.png" alt=""></div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học đàn guitar</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học đàn guitar</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/học-đàn-violon.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/học-đàn-violon.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học đàn violon</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học đàn violon</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/học-trống-cajon.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/học-trống-cajon.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học trống carjon</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học trống carjon</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/my-thuat-ung-dung.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/my-thuat-ung-dung.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học mỹ thuật ứng dụng</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học mỹ thuật ứng dụng</p>
-                        </div>
+
                     </div>
 
                 </div>
                 <div class="row mt-3">
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/học-thiết-kế-thời-trang.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/học-thiết-kế-thời-trang.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học thiết kế thời trang</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học thiết kế thời trang</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/Cờ-vua-cờ-tướng.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/Cờ-vua-cờ-tướng.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học cờ vua - cờ tướng</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học cờ vua - cờ tướng</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/học-thanh-nhạc.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/học-thanh-nhạc.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học thanh nhạc</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học thanh nhạc</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/mc-nhí.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/mc-nhí.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học làm mc nhí</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học làm mc nhí</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/học-mua-ballet.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/học-mua-ballet.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p>Học múa ballet</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học múa ballet</p>
-                        </div>
+
                     </div>
-                    <div class="col-2">
-                        <a href="">
-                            <img src="../assets/images/học-đàn-ukyulele.png" alt="">
+                    <div class="col-2  mt-4">
+                        <a href="" class="text-decoration-none">
+                            <div class="sei">
+                                <img src="../assets/images/học-đàn-ukyulele.png" alt="">
+                            </div>
+                            <div class="sec text-white">
+                                <strong>
+                                    <p class="text-decoration-none">Học đàn ukulele</p>
+                                </strong>
+                            </div>
                         </a>
-                        <div class="sec">
-                            <p>Học đàn ukulele</p>
-                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
+
+        <div class="Parents-feeling container-fluid">
+            <div class="Parents-feeling_content pt-md-6 container">
+                <div class="col-6 ml-md-auto">
+                    <div class="pf-title">
+                        <h3 class="text-center">
+                            <span style="color: #000000;">Cảm nhận </span>
+                            <span style="color: #ff6600;">của Phụ huynh</span>
+                        </h3>
+                        <div id="carousel-pf" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="justify-content-center d-flex">
+                                        <img class="d-block mt-md-4" style="height: 100px; width: 100px;" src="../assets/images/1_HIAN.jpg" alt="First slide">
+                                    </div>
+                                    <div class="carousel-content text-center">
+                                        <h4 class="mt-md-3">
+                                            <span style="color: #0A0A0A;">HIAN</span>
+                                        </h4>
+                                        <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="justify-content-center d-flex">
+                                        <img class="d-block mt-md-4" style="height: 100px; width: 100px;" src="../assets/images/2_Let-Ri.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-content text-center">
+                                        <h4 class="mt-md-3">
+                                            <span style="color: #0A0A0A;">LetRi</span>
+                                        </h4>
+                                        <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="carousel-control-prev" href="#carousel-pf" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-pf" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="News container-fluid">
+            <div class="news-title">
+                <h3 class="text-center pt-md-5">
+                    <span style="color: #000000;">Tin tức -</span>
+                    <span style="color: #ff6600;">Kiến thức</span>
+                </h3>
+            </div>
+            <div class="news-container container">
+                <div class="row">
+                    <div class="post col-md-6">
+                        <div class="news-item">
+                            <div class="news-img">
+                                Đây là ảnh
+                            </div>
+                            <div class="news-content">
+                                Đây là content
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post col-md-6">
+                        <div class="news-item">
+                            <div class="news-img">
+                                Đây là ảnh
+                            </div>
+                            <div class="news-content">
+                                Đây là content
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="post col-md-6">
+                        <div class="news-item">
+                            <div class="news-img">
+                                Đây là ảnh
+                            </div>
+                            <div class="news-content">
+                                Đây là content
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post col-md-6">
+                        <div class="news-item">
+                            <div class="news-img">
+                                Đây là ảnh
+                            </div>
+                            <div class="news-content">
+                                Đây là content
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-body-tertiary text-center">
+            <div class="f" style="background: #F99506">
+                <div class="footer-container container text-white d-flex flex-row">
+                    <div class="footer-logo text-left align-items-center pt-md-3 pb-md-3">
+                        <img src="../assets/images/logo10.png" alt="">
+                    </div>
+                    <div class="footer-content align-items-center">
+                        <h4 class="pt-md-3 ml-md-3 text-left"><span>HỌC VIỆN NGHỆ THUẬT ELITE- QUẬN 2, TP.HCM</span></h4>
+                        <p class=" ml-md-3 text-left"><span>Elite Arts Academy không chỉ giúp khơi dậy niềm đam mê nghệ thuật mà còn mang đến một môi trường học tập, vui chơi bổ ích, đóng góp cho sự phát triển toàn diện của các bé.</span></p>
+                    </div>
+                </div>
+                <!-- Copyright -->
+                <div class="footer-content text-center pt-md-3" style="background: linear-gradient(to bottom, #fc9c03, #dc5323);">
+                    Copyright © 2020 :
+                </div>
+            </div>
+        </footer>
 
     </div>
 
