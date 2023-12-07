@@ -21,13 +21,16 @@
     <div class="wrapper">
         <div class="header">
             <div class="top-bar d-flex align-items-center container justify-content-center mt-3">
-                <p class="ml-auto text-center">Trung tâm Văn hóa Nghệ thuật Tp. Hồ Chí Minh</p>
+                <p class="ml-auto">Trung tâm Văn hóa Nghệ thuật Tp. Hồ Chí Minh</p>
                 <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-regular fa-envelope"></i> webdesign@gmail.com</p>
                 <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-regular fa-clock"></i> 8:00 - 21:30</p>
                 <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-solid fa-phone"></i> 0909009009</p>
+                <p class="ml-3 d-none d-md-block"><a style="color: #e15f1d;" href="/admin/login">LOGIN</a></p>
+
+                    
             </div>
 
-            <?php 
+            <?php
             include './includes/navbar.php';
             ?>
         </div>
@@ -357,6 +360,30 @@
                                         <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
                                     </div>
                                 </div>
+
+                                <div class="carousel-item">
+                                    <div class="justify-content-center d-flex">
+                                        <img class="d-block mt-md-4" style="height: 100px; width: 100px;" src="../assets/images/Ni.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-content text-center">
+                                        <h4 class="mt-md-3">
+                                            <span style="color: #0A0A0A;">Chàng béo miền tây</span>
+                                        </h4>
+                                        <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="justify-content-center d-flex">
+                                        <img class="d-block mt-md-4" style="height: 100px; width: 100px;" src="../assets/images/Haccounth.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-content text-center">
+                                        <h4 class="mt-md-3">
+                                            <span style="color: #0A0A0A;">Haccounth</span>
+                                        </h4>
+                                        <p class="mt-md-3">Chúng mày coi chừng tao</p>
+                                    </div>
+                                </div>
                             </div>
 
                             <a class="carousel-control-prev" href="#carousel-pf" role="button" data-slide="prev">
@@ -431,8 +458,8 @@
         </div>
 
         <!-- FOOTER -->
-        <?php 
-            include './includes/footer.php';
+        <?php
+        include './includes/footer.php';
         ?>
     </div>
 

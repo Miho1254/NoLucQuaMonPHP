@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(to bottom, #fc9c03, #dc5323);
+}
+
+.navbar {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar {
+    width: 20%;
+    height: 90%;
+    background-color: blue;
+}
