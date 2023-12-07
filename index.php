@@ -7,7 +7,11 @@ $request_uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 $routes = [
     '/' => 'controllers/index.controller.php',
     '/about' => 'controllers/about.controller.php',
-    '/contact' => 'controllers/contact.controller.php'
+    '/contact' => 'controllers/contact.controller.php',
+
+    //Admin zone
+    '/admin/login' => 'controllers/admin-login.controller.php'
+    //
 ];
 
 function abort($code = 404)
