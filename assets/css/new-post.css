@@ -1,0 +1,27 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.new-post{
+    height: 100%;
+    width: 100%;
+}
+
+.create{
+    height: 100%;
+    width: 70%;
+}
+
+.side-bar{
+    height: 100%;
+    width: 30%;
+}
+

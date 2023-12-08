@@ -10,8 +10,11 @@ $routes = [
     '/contact' => 'controllers/contact.controller.php',
 
     //Admin zone
-    '/admin/login' => 'controllers/admin-login.controller.php'
-    //
+    '/admin/login' => 'controllers/admin-login.controller.php',
+    '/admin/dashboard' => 'controllers/admin-dashboard.controller.php',
+
+    //Bài viết
+    '/post/new-post' => 'controllers/new-post.controller.php'
 ];
 
 function abort($code = 404)
