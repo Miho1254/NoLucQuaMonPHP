@@ -26,8 +26,9 @@
                 </div>
             </div>
         </div>
-        <div class="side-bar">
-        </div>
+        <?php 
+            include './includes/sidebar.php';
+        ?>
     </div>
 </body>
 
