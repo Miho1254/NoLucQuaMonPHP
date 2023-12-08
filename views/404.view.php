@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/index.css">
-    <title><?php echo $data['title']; ?></title>
+    <title>404 Not found</title>
     <script src="../vendor/jquery-3.6.0.min.js"></script>
     <script src="../vendor/popper.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -16,8 +16,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <style>
-        .mt-10{
+        .mt-10 {
             margin-top: 100px;
+        }
+
+        .btn-dark {
+            color: black;
+            background-color: #343a40;
+            border-color: #343a40;
+            border-radius: 35px;
+            border: 2px solid grey;
+        }
+
+        .nounderline {
+            text-decoration: none !important
         }
     </style>
 
@@ -28,10 +40,10 @@
         <div class="error-content text-center">
             <h1 class="error-title" style="color: red;">404 Not Found</h1>
             <img class="error-img" src="../assets/images/error.png" alt="" style="height: 40%; width: 40%;">
-            <p>Hình như trang bạn tìm kiếm không tồn tại.</p>
+            <p style="font-size: 1.25rem;">Hình như trang bạn tìm kiếm không tồn tại.</p>
             <div class="button-come-back">
-                <a href="/" target="_self" class="btn btn-come-back text-white" style="background-color: blue;">
-                    <span>Come back</span>
+                <a href="/" target="_self" class="btn-lg btn-dark text-white nounderline">
+                    <span>Go home</span>
                 </a>
             </div>
         </div>

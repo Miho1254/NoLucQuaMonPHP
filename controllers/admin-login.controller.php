@@ -8,6 +8,7 @@ require './php/utils.php';
 
 <?php
 
+//Xử lý btn đăng nhập
 if (isset($_POST['AdminLoginSubmitBtn'])) {
     // Xử lý khi nút submit được nhấn
     // Điều kiện này sẽ được thực hiện khi form được submit bằng cách nhấn nút có name là "AdminLoginSubmitBtn"
