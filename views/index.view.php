@@ -21,12 +21,21 @@
         <div class="header">
             <div class="top-bar d-flex align-items-center container justify-content-center mt-3">
                 <p class="ml-auto">Trung tâm Văn hóa Nghệ thuật Tp. Hồ Chí Minh</p>
-                <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-regular fa-envelope"></i> webdesign@gmail.com</p>
-                <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-regular fa-clock"></i> 8:00 - 21:30</p>
-                <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-solid fa-phone"></i> 0909009009</p>
-                <p class="ml-3 d-none d-md-block"><a style="color: #e15f1d;" href="/admin/login">LOGIN</a></p>
-
-                    
+                <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-regular fa-envelope"></i>
+                    webdesign@gmail.com</p>
+                <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-regular fa-clock"></i> 8:00 -
+                    21:30</p>
+                <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-solid fa-phone"></i> 0909009009
+                </p>
+                <?php
+                //Có session thì hiện nút đăng xuất không thì thôi
+                if (isset($_SESSION['UserID'])) {
+                    echo '<p class="ml-3 d-none d-md-block"><a style="color: #e15f1d;" onclick="CalldeleteSession(); href= "#">LOGOUT</a></p>';
+                }
+                else {
+                    echo '<p class="ml-3 d-none d-md-block"><a style="color: #e15f1d;" href="/admin/login">LOGIN</a></p>';
+                }
+                ?>
             </div>
 
             <?php
@@ -47,9 +56,13 @@
                                 </strong>
                             </span>
                         </h2>
-                        <p class="mt-3">“Mỗi đứa trẻ là một tài năng thiên bẩm” (Albert Einstein). Do đó, Artiest Education không chỉ giúp khơi dậy niềm đam mê nghệ thuật mà còn mang đến một môi trường học tập, vui chơi bổ ích, đóng góp cho sự phát triển toàn diện của các bé.
+                        <p class="mt-3">“Mỗi đứa trẻ là một tài năng thiên bẩm” (Albert Einstein). Do đó, Artiest
+                            Education không chỉ giúp khơi dậy niềm đam mê nghệ thuật mà còn mang đến một môi trường học
+                            tập, vui chơi bổ ích, đóng góp cho sự phát triển toàn diện của các bé.
                             <br><br>
-                            Với sự đầu tư nghiêm túc về chất lượng chuyên môn & cơ sở vật chất chuẩn quốc tế, Artiest Education mong muốn tạo ra một nền tảng giáo dục tốt nhất cho thế hệ trẻ về cả tài năng, tâm hồn & nhân cách.
+                            Với sự đầu tư nghiêm túc về chất lượng chuyên môn & cơ sở vật chất chuẩn quốc tế, Artiest
+                            Education mong muốn tạo ra một nền tảng giáo dục tốt nhất cho thế hệ trẻ về cả tài năng, tâm
+                            hồn & nhân cách.
                         </p>
                         <a href="#" target="_self" class="btn btn-ae align-content-center text-white mt-3">
                             <i class="icon-search fa-solid fa-magnifying-glass fa-lg  mr-2 "></i>
@@ -73,7 +86,8 @@
                         <h2 class="text-white mt-3">
                             Bạn muốn tìm một trung tâm nghệ thuật phù hợp với con bạn?
                         </h2>
-                        <p class="text-white">Hãy cho chúng tôi một cơ hội cùng bạn phát huy tài năng bẩm sinh của bé yêu!</p>
+                        <p class="text-white">Hãy cho chúng tôi một cơ hội cùng bạn phát huy tài năng bẩm sinh của bé
+                            yêu!</p>
                     </div>
                     <div class="col-3 mt-3">
                         <a href="#" target="_self" class="btn btn-wn align-content-center mt-3">
@@ -91,7 +105,8 @@
                 <span style="color: #000000;">Artiest Education</span>
                 <span style="color: #ff6600;">mang đến cho bạn giá trị gì?</span>
             </h3>
-            <p class="my-4 text-center">Mời các bậc phụ huynh cùng tìm hiểu các giá trị đích thực mà tập thể đội ngũ Giáo viên và Cán bộ của Trung tâm muốn mang đến cho các con.</p>
+            <p class="my-4 text-center">Mời các bậc phụ huynh cùng tìm hiểu các giá trị đích thực mà tập thể đội ngũ
+                Giáo viên và Cán bộ của Trung tâm muốn mang đến cho các con.</p>
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="About-Us_img d-flex justify-content-center">
@@ -99,7 +114,8 @@
                     </div>
                     <div class="About-Us_content mt-3">
                         <h5 class="text-center "><span>ĐỘI NGŨ GIÁO VIÊN</span></h5>
-                        <p class="text-center ">Các giáo viên có trình độ chuyên môn cao, chuyên nghiệp, nhiệt huyết và yêu trẻ.</p>
+                        <p class="text-center ">Các giáo viên có trình độ chuyên môn cao, chuyên nghiệp, nhiệt huyết và
+                            yêu trẻ.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -108,7 +124,8 @@
                     </div>
                     <div class="About-Us_content mt-3">
                         <h5 class="text-center "><span>GIÁO TRÌNH GIẢNG DẠY</span></h5>
-                        <p class="text-center ">Giáo trình hiện đại, đa dạng từ các nước tiên tiến. PP giảng dạy khoa học & tâm lý.</p>
+                        <p class="text-center ">Giáo trình hiện đại, đa dạng từ các nước tiên tiến. PP giảng dạy khoa
+                            học & tâm lý.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -117,7 +134,8 @@
                     </div>
                     <div class="About-Us_content mt-3">
                         <h5 class="text-center "><span>CƠ SỞ VẬT CHẤT</span></h5>
-                        <p class="text-center ">Trang thiết bị hiện đại và tiện nghi, môi trường học tập chuyên nghiệp – an toàn.</p>
+                        <p class="text-center ">Trang thiết bị hiện đại và tiện nghi, môi trường học tập chuyên nghiệp –
+                            an toàn.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -126,7 +144,8 @@
                     </div>
                     <div class="About-Us_content mt-3">
                         <h5 class="text-center "><span>LIÊN LẠC VỚI GIA ĐÌNH</span></h5>
-                        <p class="text-center ">Mọi sự tiến bộ của con bạn đều được ghi nhận và được báo cáo sau mỗi buổi học.</p>
+                        <p class="text-center ">Mọi sự tiến bộ của con bạn đều được ghi nhận và được báo cáo sau mỗi
+                            buổi học.</p>
                     </div>
                 </div>
             </div>
@@ -136,7 +155,9 @@
         <div class="Education container-fluid mt-3">
             <div class="Education_title container">
                 <h2 class="pt-5 text-center"><span>Chương trình đào tạo năng khiếu tại Artiest Education</span></h2>
-                <p class="text-center"><span>Âm nhạc và Nghệ thuật là một phần không thể thiếu trong quá trình phát triển nhân cách của trẻ nhỏ. Các em cần một sân chơi lành mạnh để thêm yêu thương, gắn kết, sẻ chia cũng như phát triển mọi kỹ năng sống của mình.</span></p>
+                <p class="text-center"><span>Âm nhạc và Nghệ thuật là một phần không thể thiếu trong quá trình phát
+                        triển nhân cách của trẻ nhỏ. Các em cần một sân chơi lành mạnh để thêm yêu thương, gắn kết, sẻ
+                        chia cũng như phát triển mọi kỹ năng sống của mình.</span></p>
             </div>
             <div class="Education_card container">
                 <div class="row">
@@ -344,7 +365,8 @@
                                         <h4 class="mt-md-3">
                                             <span style="color: #0A0A0A;">HIAN</span>
                                         </h4>
-                                        <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
+                                        <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+                                            perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
                                     </div>
                                 </div>
 
@@ -356,7 +378,8 @@
                                         <h4 class="mt-md-3">
                                             <span style="color: #0A0A0A;">LetRi</span>
                                         </h4>
-                                        <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
+                                        <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+                                            perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
                                     </div>
                                 </div>
 
@@ -368,7 +391,8 @@
                                         <h4 class="mt-md-3">
                                             <span style="color: #0A0A0A;">Chàng béo miền tây</span>
                                         </h4>
-                                        <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
+                                        <p class="mt-md-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+                                            perspiciatis provident quibusdam distinctio odio molestias totam,....</p>
                                     </div>
                                 </div>
 
@@ -462,6 +486,7 @@
         ?>
     </div>
 
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>

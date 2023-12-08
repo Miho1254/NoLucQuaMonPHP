@@ -1,4 +1,6 @@
 <?php
+//Khởi tạo session khi người dùng truy cập vào web
+session_start();
 
 // Lấy đường dẫn và tham số từ URL
 $request_uri = parse_url($_SERVER['REQUEST_URI'])['path'];

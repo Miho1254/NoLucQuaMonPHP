@@ -35,7 +35,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="remember-me" class="text-info"><span>Nhớ mật khẩu</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Đăng nhập">
+                                <input type="submit" name="AdminLoginSubmitBtn" class="btn btn-info btn-md" value="Đăng nhập">
                             </div>
                         </form>
                     </div>
