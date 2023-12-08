@@ -14,8 +14,9 @@ $routes = [
     //Admin zone
     '/admin/login' => 'controllers/admin-login.controller.php',
     '/admin/dashboard' => 'controllers/admin-dashboard.controller.php',
-    //Bài viết
     '/admin/new-post' => 'controllers/new-post.controller.php'
+    
+    //Bài viết
 ];
 
 function abort($code = 404)
