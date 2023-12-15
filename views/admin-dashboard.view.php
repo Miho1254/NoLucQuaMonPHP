@@ -17,19 +17,19 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="nav container-fluid">
-            <div class="navbar container d-flex align-content-center">
-                <div class="logo">
-                    <a style="height: 100%;" href="/"><img style="height: 100%;" src="../assets/images/logo10.png" alt=""></a> 
-                    <img src="../assets/css/in" alt="">
-                </div>
+<div class="wrapper">
+    <div class="nav container-fluid">
+        <div class="navbar container d-flex align-content-center">
+            <div class="logo">
+                <a href="/"><img style="height: 100%;" src="../assets/images/logo10.png" alt=""></a>
+                <img src="../assets/css/in" alt="">
             </div>
         </div>
-        <?php 
-            include './includes/sidebar.php';
-        ?>
     </div>
+    <?php
+        include './includes/ad-dashboard.php';
+    ?>
+</div>
 </body>
 
 </html>
