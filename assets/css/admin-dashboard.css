@@ -1,7 +1,7 @@
-body {
+html, body {
     margin: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .wrapper {
@@ -9,26 +9,10 @@ body {
     width: 100%;
 }
 
-.nav {
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom, #fc9c03, #dc5323);
-}
 
-.navbar {
-    min-height: 70px;
-    width: 100%;
-}
-
-.logo {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .side-bar {
     width: 15%;
+    height: 100%;
     background-color: blue;
 }

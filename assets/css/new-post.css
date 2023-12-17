@@ -11,13 +11,21 @@ html {
     width: 100%;
 }
 
-
 .new-post{
     height: 100%;
 }
 
-.side-bar_right{
+.test_content{
     height: 100%;
+    width: 100%;
+}
+
+.test{
+    width: 55%;
+}
+
+.side-bar_right{
+    height: auto;
     width: 30%;
     border-left: 1px solid black;
     padding: 48px 10px 0 10px;

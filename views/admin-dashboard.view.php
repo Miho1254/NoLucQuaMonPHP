@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/admin-dashboard.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/admin-dashboard.css">
     <title>Admin dashboard</title>
     <script src="../vendor/jquery-3.6.0.min.js"></script>
     <script src="../vendor/popper.min.js"></script>
@@ -17,19 +18,19 @@
 </head>
 
 <body>
-<div class="wrapper">
-    <div class="nav container-fluid">
-        <div class="navbar container d-flex align-content-center">
-            <div class="logo">
-                <a href="/"><img style="height: 100%;" src="../assets/images/logo10.png" alt=""></a>
-                <img src="../assets/css/in" alt="">
-            </div>
-        </div>
-    </div>
+    <div class="wrapper">
     <?php
-        include './includes/ad-dashboard.php';
-    ?>
-</div>
+            include './includes/topbar.php';
+            ?>
+
+            <?php
+            include './includes/navbar.php';
+            ?>
+
+        <?php
+            include './includes/ad-dashboard.php';
+            ?>
+    </div>
 </body>
 
 </html>

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đăng bài viết mới</title>
+    <link rel="stylesheet" href="../assets/css/index.css">
     <link rel="stylesheet" href="../assets/css/new-post.css">
     <link rel="stylesheet" href="../assets/css/admin-dashboard.css">
     <script src="../vendor/jquery-3.6.0.min.js"></script>
@@ -18,42 +19,53 @@
 </head>
 
 <body>
-    <div class="new-post d-flex flex-row">
+    <div class="new-post">
         <?php
-        include './includes/ad-dashboard.php';
+        include './includes/topbar.php';
         ?>
-        <div class="container pl-5 pr-5 pt-5">
-            <form action="" method="post">
+
+        <?php
+        include './includes/navbar.php';
+        ?>
+
+        <div class="test_content d-flex flex-row">
+            <?php
+            include './includes/ad-dashboard.php';
+            ?>
+            <div class="test container pl-5 pr-5 pt-5">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="title">Title:</label>
+                        <input type="text" class="form-control" id="title" name="title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="content">Content:</label>
+                        <textarea class="form-control" id="content" name="content" rows="15" required></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="side-bar_right">
                 <div class="form-group">
-                    <label for="title">Title:</label>
-                    <input type="text" class="form-control" id="title" name="title" required>
+                    <label for="image">Add Image:</label>
+                    <input type="file" class="form-control" id="image" name="image">
                 </div>
                 <div class="form-group">
-                    <label for="content">Content:</label>
-                    <textarea class="form-control" id="content" name="content" rows="15" required></textarea>
+                    <label for="category">Category:</label>
+                    <select class="form-control" id="category">
+                        <option>Technology</option>
+                        <option>Sports</option>
+                        <option>Travel</option>
+                        <!-- Add more categories as needed -->
+                    </select>
                 </div>
-            </form>
+                <div class="button-btn text-center">
+                    <button class="btn btn-primary btn-preview">Xem trước</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </div>
         </div>
 
-        <div class="side-bar_right">
-            <div class="form-group">
-                <label for="image">Add Image:</label>
-                <input type="file" class="form-control" id="image" name="image">
-            </div>
-            <div class="form-group">
-                <label for="category">Category:</label>
-                <select class="form-control" id="category">
-                    <option>Technology</option>
-                    <option>Sports</option>
-                    <option>Travel</option>
-                    <!-- Add more categories as needed -->
-                </select>
-            </div>
-            <div class="button-btn text-center">
-                <button class="btn btn-primary btn-preview">Xem trước</button>
-                <button type="submit" class="btn btn-primary">Lưu</button>
-            </div>
-        </div>
 
     </div>
 
