@@ -19,30 +19,35 @@
 <body>
     <div class="wrapper">
         <div class="header">
-            <div class="top-bar d-flex align-items-center container justify-content-center mt-3">
-                <p class="ml-auto">Trung tâm Văn hóa Nghệ thuật Tp. Hồ Chí Minh</p>
-                <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-regular fa-envelope"></i>
-                    webdesign@gmail.com</p>
-                <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-regular fa-clock"></i> 8:00 -
-                    21:30</p>
-                <p class="ml-3 d-none d-md-block" style="color: #e15f1d;"><i class="fa-solid fa-phone"></i> 0909009009
-                </p>
-                <?php
-                //Có session thì hiện nút đăng xuất không thì thôi
-                if (isset($_SESSION['UserID'])) {
-                    echo '<p class="ml-3 d-none d-md-block"><a style="color: #e15f1d;" onclick="CalldeleteSession(); href= "#">LOGOUT</a></p>';
-                }
-                else {
-                    echo '<p class="ml-3 d-none d-md-block"><a style="color: #e15f1d;" href="/admin/login">LOGIN</a></p>';
-                }
-                ?>
-            </div>
+            <?php
+            include './includes/topbar.php';
+            ?>
 
             <?php
             include './includes/navbar.php';
             ?>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="../assets/images/slider33.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../assets/images/slider34.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../assets/images/sliderr888.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
-
 
         <div class="Artiest-Education container">
             <div class="row">

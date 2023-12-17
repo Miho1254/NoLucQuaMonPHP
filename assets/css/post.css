@@ -1,0 +1,94 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    font-family: "Open Sans", sans-serif;
+    color: #494949;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+.content-left{
+    height: 100%;
+    padding: 0 30px 30px 30px;
+}
+
+.comment-respond{
+    background-color: rgba(0,0,0,0.05);
+    margin-top: 15px;
+    padding: 15px 25px 0;
+}
+
+.comment-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.comment-form-row label {
+    margin-bottom: 0;
+}
+
+.comment-form-submit {
+    background-color: #FF6600;
+}
+
+.comment-form-submit:hover {
+    background-color: #CC5200;
+}
+
+.comment-form label {
+    font-weight: bold;
+}
+
+.content-left a{
+    color: #FF6600; 
+}
+
+.content-left a:hover{
+    color: black; 
+    text-decoration: none;
+}
+
+.next{
+    border-left: 1px solid #ececec;
+    height: 100%;
+}
+
+
+.side-right{
+    height: 100%;
+}
+
+.anh{
+    min-height: 150px;
+    min-width: 300px;
+    background-color: #F2F2F2;
+}
+
+.different-tidings a{
+    color: #0A0000;
+    font-size: 14px;
+}
+
+.different-tidings a:hover{
+    color: #FF7E00;
+    text-decoration: none;
+
+}
+
+.different-tidings img{
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+}

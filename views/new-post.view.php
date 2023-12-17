@@ -34,13 +34,9 @@
                 </div>
             </form>
         </div>
-        <div class="side-bar_right pl-2 pt-5">
-            <div class="post text-center pr-2">
-                <button class="btn btn-primary btn-preview">Xem trước</button>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
 
-            <div class="form-group pt-4">
+        <div class="side-bar_right">
+            <div class="form-group">
                 <label for="image">Add Image:</label>
                 <input type="file" class="form-control" id="image" name="image">
             </div>
@@ -53,8 +49,9 @@
                     <!-- Add more categories as needed -->
                 </select>
             </div>
-            <div class="button text-right pr-2">
-                <button class="btn btn-primary btn-save">Lưu</button>
+            <div class="button-btn text-center">
+                <button class="btn btn-primary btn-preview">Xem trước</button>
+                <button type="submit" class="btn btn-primary">Lưu</button>
             </div>
         </div>
 
