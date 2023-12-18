@@ -65,7 +65,10 @@
                 </div>
             </div>
         </div>
-
+        <!-- FOOTER -->
+        <?php
+        include './includes/footer.php';
+        ?>
 
     </div>
 
