@@ -20,13 +20,9 @@ html {
     width: 100%;
 }
 
-.test{
-    width: 55%;
-}
-
 .side-bar_right{
     height: auto;
-    width: 30%;
+    width: 20%;
     border-left: 1px solid black;
     padding: 48px 10px 0 10px;
 }

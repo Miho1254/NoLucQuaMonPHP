@@ -4,12 +4,12 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="logo">
-            <img src="../assets/images/logo10.png" alt="">
+            <a href="/"><img src="../assets/images/logo10.png" alt=""></a>
         </div>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">TRANG CHỦ <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="/">TRANG CHỦ <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">GIỚI THIỆU</a>

@@ -9,10 +9,43 @@ html, body {
     width: 100%;
 }
 
-
-
+/* Side bar */
 .side-bar {
     width: 15%;
     height: 100%;
-    background-color: blue;
+    background-color: rgb(0, 217, 255);
+}
+
+.side-bar a{
+    color: #494949;
+    font-size: 14px;
+}
+
+.side-bar a:hover{
+    color: #FF7E00;
+    text-decoration: none;
+}
+
+/*SIDE_BAR: Danh mục 1 */
+.dashboard{
+    height: 5%;
+    width: 100%;
+    border-bottom: 1px solid #494949;
+}
+
+.dashboard:hover{
+    background-color: rgb(51 141 157);;
+
+}
+
+/*SIDE_BAR: Danh mục 2 */
+.new_post{
+    height: 5%;
+    width: 100%;
+    border-bottom: 1px solid #494949;
+}
+
+.new_post:hover{
+    background-color: rgb(51 141 157);;
+
 }
