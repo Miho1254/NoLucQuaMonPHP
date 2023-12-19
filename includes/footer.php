@@ -1,5 +1,4 @@
-<footer class="bg-body-tertiary text-center">
-    <div class="f" style="background: #F99506">
+    <div class="f bg-body-tertiary text-center" style="background: #F99506">
         <div class="footer-container container text-white d-flex flex-row">
             <div class="footer-logo text-left align-items-center pt-md-3 pb-md-3">
                 <img src="../assets/images/logo10.png" alt="">
@@ -14,4 +13,3 @@
             Copyright © 2020
         </div>
     </div>
-</footer>

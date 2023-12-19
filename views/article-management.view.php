@@ -61,7 +61,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="management_all d-flex flex-column justify-content-center align-items-center">
+                <div class="management_all d-flex flex-column align-items-center">
                     <div class="items p-2 my-3">
                         <div class="row">
                             <div class="i_title col-6">
