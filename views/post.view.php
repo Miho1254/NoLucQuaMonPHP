@@ -33,50 +33,13 @@
                     </div>
                     <div class="posts">
                         <div class="post-title mt-md-2" style="color: #0A0A0A; font-family: 'Open Sans', sans-serif;">
-                            <h3><span class="font-weight-bold"> Giai điệu mùa hè 2017: Sân chơi mới cho các bạn nhỏ đam mê nghệ thuật</span></h3>
+                            <h3><span class="font-weight-bold"><?php echo $post['PostTitle']?></span></h3>
                         </div>
                         <div class="time mt-md-2">
-                            <p style="font-size: 13px;">POSTED ON <span style="color: #FF6600;">12/10/2017</span> BY <span style="color: #FF6600;">ADMIN</span> </p>
+                            <p style="font-size: 13px;">POSTED ON <span style="color: #FF6600;"><?php echo $post['Createt_At']?></span> BY <span style="color: #FF6600;"><?php echo $authorName?></span> </p>
                         </div>
                         <div class="post-content">
-                            <p>Chiều 28/5 tại Phòng hòa nhạc, Học viện Âm nhạc Quốc Gia Việt Nam đã diễn ra Chương trình hòa nhạc thiếu nhi với tựa đề “Giai điệu mùa hè 2017”.
-                                <br>Đây là một trong những hoạt động thường niên của Trung tâm nghệ thuật Music Plus, với mong muốn tạo ra sân chơi cho các bạn nhỏ đam mê nghệ thuật, phiêu lưu qua các vùng đất khác nhau để truyền cảm hứng và tình yêu âm nhạc đến cho mọi người.
-                            </p>
-                            <a href=""><img src="" alt="Giai dieu mua he 2017: San choi moi cho cac ban nho dam me nghe thuat - Anh 1"></a>
-                            <br>
-
-                            <br>
-                            <p>Các bạn nhỏ biểu diễn piano tại chương trình hòa nhạc.</p>
-
-                            <p>Chương trình nghệ thuật dành cho thiếu nhi lần này được tổ chức nhằm góp phần định hướng nghệ thuật lành mạnh cho thế hệ trẻ, đặc biệt góp phần quan trọng trong việc giáo dục cho trẻ em theo phương châm “chơi mà học”.</p>
-
-                            <p>Nguồn cảm hứng từ âm nhạc sẽ hình thành cho trẻ lòng yêu thiên nhiên, tổ quốc, tình yêu thương con người. Quá trình trẻ tiếp xúc và hoạt động âm nhạc như học hát, nghe hát, vận động theo nhạc, chơi trò chơi âm nhạc… sẽ hình thành ở trẻ những yếu tố của một nhân cách phát triển toàn diện, hài hòa, là sự phát triển về thẩm mỹ, đạo đức, trí tuệ và thể lực.</p>
-                            <a href=""><img src="" alt="Giai dieu mua he 2017: San choi moi cho cac ban nho dam me nghe thuat - Anh 2"></a>
-                            <br>
-
-                            <br>
-                            <p>Bạn Linh Phương – biểu diễn bản nhạc “Thư gửi Elise” của Beethoven tại chương trình.</p>
-
-                            <p>Chương trình có sự góp mặt của hơn 150 học viên của Music Plus, cùng các nghệ sĩ đến từ các trung tâm giảng dạy thanh nhạc. Hơn 150 tiết mục của các bạn nhỏ sẽ được chia làm 3 bảng (A,B,C), với mỗi bảng ban tổ chức sẽ chọn ra 3 tiết mục ấn tượng nhất để trao giải.</p>
-
-                            <p>Tại đây, các em đã biểu diễn những bản nhạc nổi tiếng như: Thư gửi Elise của Beethoven, Nhật ký của mẹ, Hungarian Dance No.5, Mariage d’amour (Đám cưới tình yêu)… mang đến cho các khán giả nhiều cung bậc cảm xúc khác nhau.</p>
-                            <a href=""><img src="" alt="Giai dieu mua he 2017: San choi moi cho cac ban nho dam me nghe thuat - Anh 3"></a>
-                            <br>
-
-                            <br>
-                            <p>Bạn Tuấn Hưng, biểu diễn bản nhạc “Nhật ký của mẹ” tại chương trình.</p>
-
-                            <p>Gia Khánh, một trong những bạn nhỏ tham dự buổi hòa nhạc chia sẻ: “Đây là lần đầu tiên con được tham gia chương trình lớn và được biểu diễn trước rất nhiều người như vậy. Con cảm thấy rất vui và sẽ cố gắng biển diễn thật tốt để bố mẹ và các cô được vui lòng”.</p>
-                            <a href=""><img src="" alt="Giai dieu mua he 2017: San choi moi cho cac ban nho dam me nghe thuat - Anh 4"></a>
-                            <br>
-
-                            <br>
-                            <p>Bé Gia Hân – Học viên của Trung tâm nghệ thuật Music Plus đạt giải tiết mục biểu diễn xuất sắc.</p>
-
-                            <p>Kết thúc buổi biểu diễn tại bảng A, bé Gia Hân – Học viên của Trung tâm nghệ thuật Music Plus đã giành giải xuất sắc.</p>
-
-                            <br>
-                            <p class="font-weight-bold">Hoàng Duy.</p>
+                        <?php echo $post['Post_Content']?>
                         </div>
                     </div>
 

@@ -9,7 +9,7 @@
         <?php
         //Có session thì hiện nút đăng xuất không thì thôi
         if (isset($_SESSION['UserID'])) {
-            echo '<p class="ml-3 d-none d-md-block"><a style="color: #e15f1d;" onclick="CalldeleteSession(); href= "#">LOGOUT</a></p>';
+            echo '<p class="ml-3 d-none d-md-block"><a style="color: #e15f1d;" onclick="CalldeleteSession();" href= "#">LOGOUT</a></p>';
         } else {
             echo '<p class="ml-3 d-none d-md-block"><a style="color: #e15f1d;" href="/admin/login">LOGIN</a></p>';
         }
