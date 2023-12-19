@@ -19,17 +19,17 @@
 
 <body>
     <div class="wrapper">
-    <?php
-            include './includes/topbar.php';
-            ?>
-
-            <?php
-            include './includes/navbar.php';
-            ?>
+        <?php
+        include './includes/topbar.php';
+        ?>
 
         <?php
-            include './includes/ad-dashboard.php';
-            ?>
+        include './includes/navbar.php';
+        ?>
+
+        <?php
+        include './includes/ad-dashboard.php';
+        ?>
     </div>
 </body>
 
