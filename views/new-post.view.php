@@ -32,7 +32,7 @@
             <?php
             include './includes/ad-dashboard.php';
             ?>
-            <div class="test container pr-5 pl-5 pt-5" style="width: 65%;">
+            <div class="test container pr-5 pl-5 pt-5" style="width: 60%;">
                 <form action="" method="post">
                     <div class="form-group">
                         <label for="title">Title:</label>

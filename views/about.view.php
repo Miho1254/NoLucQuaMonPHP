@@ -6,7 +6,20 @@
     <title><?php echo $data['title']; ?></title>
 </head>
 <body>
-    <h1><?php echo $data['title']; ?></h1>
-    <p><?php echo $data['content']; ?></p>
+<div class="wrapper">
+        <div class="header">
+            <?php
+            include './includes/topbar.php';
+            ?>
+
+            <?php
+            include './includes/navbar.php';
+            ?>
+        </div>
+
+        <div class="content">
+            
+        </div>
+</div>    
 </body>
 </html>
