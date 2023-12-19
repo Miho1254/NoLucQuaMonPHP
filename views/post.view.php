@@ -137,8 +137,6 @@
                 ?>
             </div>
         </div>
-        <!-- FOOTER -->
-        
     </div>
     
 </body>

@@ -17,3 +17,16 @@ function debug_to_console($data) {
 
     echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
 }
+
+function generateSlug($string) {
+    // Chuyển chuỗi thành chữ thường
+    $string = strtolower($string);
+
+    // Loại bỏ ký tự không phải chữ cái hoặc số, thay thế bằng dấu gạch ngang
+    $string = preg_replace('/[^a-z0-9]+/', '-', $string);
+
+    // Loại bỏ các dấu gạch ngang liên tiếp
+    $string = trim($string, '-');
+
+    return $string;
+}

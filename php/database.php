@@ -8,9 +8,10 @@ class Database
     private $database;
     private $port;
 
-    private $connection;
+    public $connection;
 
-    public function __construct($host, $username, $password, $database, $port) {
+    public function __construct($host, $username, $password, $database, $port)
+    {
         $this->host = $host;
         $this->username = $username;
         $this->password = $password;
@@ -32,7 +33,6 @@ class Database
     {
         if ($this->connection) {
             $this->connection->close();
-            echo "Đã ngắt kết nối";
         }
     }
 
