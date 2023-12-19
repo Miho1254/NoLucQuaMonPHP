@@ -30,11 +30,6 @@
         <?php
         include './includes/ad-dashboard.php';
         ?>
-
-        <!-- FOOTER -->
-        <?php
-        include './includes/footer.php';
-        ?>
     </div>
 </body>
 
