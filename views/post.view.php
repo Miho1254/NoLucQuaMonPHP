@@ -45,7 +45,7 @@
 
                     <div class="next-and-prev">
                         <hr>
-                        <div class="row" style="height: 10%;">
+                        <div class="row" style="height: 5%;">
                             <div class="prev col-md-6 text-left" style="height: 100%;">
                                 <a href=""><i class="fa-solid fa-chevron-left mr-md-1"></i>Góc nhìn mới về giáo dục nghệ thuật</a>
                             </div>
