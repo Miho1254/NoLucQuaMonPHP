@@ -20,6 +20,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <div class="header">
         <?php
         include './includes/topbar.php';
@@ -70,6 +71,23 @@
         include './includes/footer.php';
         ?>
 
+=======
+<div class="wrapper">
+        <div class="header">
+            <?php
+            include './includes/topbar.php';
+            ?>
+
+            <?php
+            include './includes/navbar.php';
+            ?>
+        </div>
+
+        <div class="content">
+            
+        </div>
+</div>    
+>>>>>>> e18108b4c48b80bfb74082e697c3aa4bca03fc58
 </body>
 
 </html>

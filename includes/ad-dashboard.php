@@ -1,16 +1,18 @@
 <div class="side-bar">
-    <div class="demo_hover">
-        
-    </div>
     <div class="list">
-        <!-- Danh mục 1 -->
-        <div class="dashboard text-center pt-md-2 ">
-            <a href="/admin/dashboard">Dash board</a>
-        </div>
-        <!-- Danh mục 2 -->
-        <div class="new_post text-center pt-md-2 ">
-            <a href="/admin/new-post">New post</a>
-        </div>
-    </div>
+        <!-- Danh mục 1: Phần dashboard của admin -->
+        <a href="/admin/dashboard">
+            <div class="side-bar-item text-center pt-md-1"><i class="fa-solid fa-chart-pie"></i> Dashboard</div>
+        </a>
 
+        <!-- Danh mục 2: Phần thêm bài viết mới của admin -->
+        <a href="/admin/new-post">
+            <div class="side-bar-item text-center pt-md-1"><i class="fa-solid fa-pencil"></i> New post</div>
+        </a>
+
+        <!-- Danh mục 3: Phần quản lý bài viết mới của admin -->
+        <a href="/admin/admin-dashboard">
+        <div class="side-bar-item text-center pt-md-1"><i class="fa-regular fa-newspaper"></i> Post management</div>
+        </a>
+    </div>
 </div>

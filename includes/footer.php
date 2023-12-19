@@ -10,8 +10,8 @@
             </div>
         </div>
         <!-- Copyright -->
-        <div class="footer-content text-center pt-md-3" style="background: linear-gradient(to bottom, #fc9c03, #dc5323);">
-            Copyright © 2020 :
+        <div class="footer-content text-center pt-md-1" style="background: linear-gradient(to bottom, #fc9c03, #dc5323);">
+            Copyright © 2020
         </div>
     </div>
 </footer>

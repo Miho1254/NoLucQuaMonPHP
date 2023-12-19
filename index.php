@@ -15,6 +15,7 @@ $routes = [
     '/admin/login' => 'controllers/admin-login.controller.php',
     '/admin/dashboard' => 'controllers/admin-dashboard.controller.php',
     '/admin/new-post' => 'controllers/new-post.controller.php',
+    '/admin/admin-dashboard' => 'controllers/article-management.controller.php',
     
     //Bài viết
     '/post/post' => 'controllers/post.controller.php'
