@@ -1,3 +1,3 @@
 <?php
-    include './views/course.php'
+    include './views/course.view.php'
 ?>
