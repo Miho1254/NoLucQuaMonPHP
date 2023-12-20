@@ -28,7 +28,9 @@ $routes = [
     '/admin/admin-dashboard' => 'controllers/article-management.controller.php',
     
     //Bài viết
-    '/post' => 'controllers/post.controller.php'
+    '/post' => 'controllers/post.controller.php',
+    '/schedule' => 'controllers/schedule.controller.php',
+    '/course' => 'controllers/course.controller.php'
 ];
 
 function abort($code = 404)
