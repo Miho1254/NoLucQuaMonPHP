@@ -30,7 +30,7 @@
 
         <div class="schedule_content container">
             <div class="row">
-                <div class="schedule_left-content col-9 mt-4">
+                <div class="schedule_left-content col-md-9 mt-4">
                     <div class="schedule_title">
                         <strong>
                             <h3>LỊCH KHAI GIẢNG <span style="color: #FF6600;"> CÁC LỚP NGHỆ THUẬT THÁNG 10/2017</span></h3>
