@@ -1,3 +1,3 @@
 <?php
-    include './views/schedule.php';
+    include './views/schedule.view.php';
 ?>

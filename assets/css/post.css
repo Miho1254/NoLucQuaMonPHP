@@ -75,6 +75,11 @@ html, body{
     background-color: #F2F2F2;
 }
 
+.tidings{
+    margin: 0 !important;
+}
+
+
 .different-tidings a{
     color: #0A0000;
     font-size: 14px;
