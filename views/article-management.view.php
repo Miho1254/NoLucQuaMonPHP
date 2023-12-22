@@ -29,11 +29,11 @@
         include './includes/navbar.php';
         ?>
 
-        <div class="management_content d-flex flex-row">
+        <div class="management_content row d-flex flex-row">
             <?php
             include './includes/ad-dashboard.php';
             ?>
-            <div class="management container">
+            <div class="management col-9 container">
                 <div class="management_title pt-5 text-center d-flex flex-row">
                     <h2 class="pr-3 pt-1">Bài viết</h2>
                     <div class="management_btn ">

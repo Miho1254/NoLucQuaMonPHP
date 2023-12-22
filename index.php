@@ -24,8 +24,10 @@ $routes = [
     //Admin zone
     '/admin/login' => 'controllers/admin-login.controller.php',
     '/admin/dashboard' => 'controllers/admin-dashboard.controller.php',
+    '/admin/category' => 'controllers/category.controller.php',
     '/admin/new-post' => 'controllers/new-post.controller.php',
-    '/admin/admin-dashboard' => 'controllers/article-management.controller.php',
+    '/admin/article-management' => 'controllers/article-management.controller.php',
+    '/admin/category-management' => 'controllers/category-management.controller.php',
     
     //Bài viết
     '/post' => 'controllers/post.controller.php',

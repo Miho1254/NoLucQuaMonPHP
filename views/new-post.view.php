@@ -31,11 +31,11 @@
         include './includes/navbar.php';
         ?>
 
-        <div class="test_content d-flex flex-row">
+        <div class="row test_content d-flex flex-row">
             <?php
             include './includes/ad-dashboard.php';
             ?>
-            <div class="test container pr-5 pl-5 pt-5" style="width: 60%;">
+            <div class="test container col-md-6 pr-5 pl-5 pt-5">
                 <form id="new-post-form" class="form" action="" method="post">
                     <div class="form-group">
                         <label for="title">Title:</label>
@@ -52,7 +52,7 @@
                 </form>
             </div>
 
-            <div class="side-bar_right">
+            <div class="side-bar_right col-md-2">
                 <div class="form-group">
                     <label for="image">Add Image:</label>
                     <input type="file" class="form-control" id="image" name="image">

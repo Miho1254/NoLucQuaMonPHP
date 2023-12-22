@@ -5,3 +5,4 @@ $contact = [
 ];
 
 include './views/contact.view.php';
+?>
