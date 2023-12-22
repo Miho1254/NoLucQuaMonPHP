@@ -18,8 +18,27 @@ html, body {
     width: 80%;
 }
 
-.Nhac-cu-phuong-tay {
-    background-image: url(../images/bg4.jpg);
-    height: 154px;
-    width: 257px;
+.course_abcxyz .image-link {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.course_abcxyz img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+}
+
+.course_abcxyz .text-overlay {
+    position: absolute;
+    bottom: 0; /* Align the bottom of the text overlay with the bottom of the image */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.59);
+    color: #fff; /* Set the text color */
+    font-size: 15px; /* Set the font size */
+    text-align: center; /* Horizontal alignment */
+    z-index: 1; /* Ensure the text overlay appears above the image */
+    pointer-events: none; /* Allow clicks to pass through the text overlay */
 }
