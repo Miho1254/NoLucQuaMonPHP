@@ -62,113 +62,31 @@
                     </div>
                 </div>
                 <div class="management_all d-flex flex-column align-items-center">
-                    <div class="items p-2 my-3">
-                        <div class="row">
-                            <div class="i_title col-6">
-                                <label for="">Tiêu đề</label>
-                                <h5>Hello t amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id a</h5>
-                            </div>
-                            <div class="au col-6"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Tác giả</label>
-                                <h5>Miho</h5>
-                            </div>
-                        </div>
-
-                        <div class="i_content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id aut odit nobis magni saepe consequatur omnis nesciunt, eligendi labore veniam aspernatur.</p>
-                        </div>
-                        <div class="i_choose d-flex flex-row justify-content-end ">
-                            <div class="see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
-                    <div class="items p-2 my-3">
-                        <div class="row">
-                            <div class="i_title col-6">
-                                <label for="">Tiêu đề</label>
-                                <h5>Hello t amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id a</h5>
-                            </div>
-                            <div class="au col-6"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Tác giả</label>
-                                <h5>Miho</h5>
-                            </div>
-                        </div>
-
-                        <div class="i_content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id aut odit nobis magni saepe consequatur omnis nesciunt, eligendi labore veniam aspernatur.</p>
-                        </div>
-                        <div class="i_choose d-flex flex-row justify-content-end ">
-                            <div class="see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
-                    <div class="items p-2 my-3">
-                        <div class="row">
-                            <div class="i_title col-6">
-                                <label for="">Tiêu đề</label>
-                                <h5>Hello t amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id a</h5>
-                            </div>
-                            <div class="au col-6"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Tác giả</label>
-                                <h5>Miho</h5>
-                            </div>
-                        </div>
-
-                        <div class="i_content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id aut odit nobis magni saepe consequatur omnis nesciunt, eligendi labore veniam aspernatur.</p>
-                        </div>
-                        <div class="i_choose d-flex flex-row justify-content-end ">
-                            <div class="see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
-                    <div class="items p-2 my-3">
-                        <div class="row">
-                            <div class="i_title col-6">
-                                <label for="">Tiêu đề</label>
-                                <h5>Hello t amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id a</h5>
-                            </div>
-                            <div class="au col-6"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Tác giả</label>
-                                <h5>Miho</h5>
-                            </div>
-                        </div>
-
-                        <div class="i_content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id aut odit nobis magni saepe consequatur omnis nesciunt, eligendi labore veniam aspernatur.</p>
-                        </div>
-                        <div class="i_choose d-flex flex-row justify-content-end ">
-                            <div class="see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
-                    <div class="items p-2 my-3">
-                        <div class="row">
-                            <div class="i_title col-6">
-                                <label for="">Tiêu đề</label>
-                                <h5>Hello t amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id a</h5>
-                            </div>
-                            <div class="au col-6"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Tác giả</label>
-                                <h5>Miho</h5>
-                            </div>
-                        </div>
-
-                        <div class="i_content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptates dolorem natus beatae sed doloremque atque quas id aut odit nobis magni saepe consequatur omnis nesciunt, eligendi labore veniam aspernatur.</p>
-                        </div>
-                        <div class="i_choose d-flex flex-row justify-content-end ">
-                            <div class="see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
+                    <?php
+                    foreach ($list as $post) {
+                        echo '<div class="items p-2 my-3">
+            <div class="row">
+                <div class="i_title col-6">
+                    <label for="">Tiêu đề</label>
+                    <h5>' . $post['PostTitle'] . '</h5>
                 </div>
-                
+                <div class="au col-6">
+                    <label for="">Tác giả</label>
+                    <h5>' . searchAuthorByID($post['Author'], $conn)['Displayname'] . '</h5>
+                </div>
+            </div>
+
+            <div class="i_choose d-flex flex-row justify-content-end">
+                <div class="see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
+                <div class="fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
+                <div class="delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
+            </div>
+        </div>';
+                    }
+                    ?>
+
+                </div>
+
             </div>
 
         </div>
