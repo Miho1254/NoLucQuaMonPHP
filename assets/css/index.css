@@ -137,18 +137,25 @@ body {
   background-color: white;
 }
 
-.f{
+.f {
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 100px; /* Thiết lập chiều cao tối thiểu là 100% của viewport height */
+  background: #F99506;
 }
 
 .footer-container {
-  height: 150px;
+  height: auto;
+  padding-top: 10px; /* Thêm padding cho khoảng cách giữa các phần */
 }
 
 .footer-content {
-  height: 50px;
+  height: auto;
 }
 
 .footer-logo img {
-  height: 80px;
+  height: auto;
+  max-height: 80px; /* Giữ kích thước tối đa của logo */
 }
