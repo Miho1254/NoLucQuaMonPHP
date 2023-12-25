@@ -22,11 +22,9 @@
         <?php
         include './includes/topbar.php';
         ?>
-
         <?php
         include './includes/navbar.php';
         ?>
-
         <?php
         include './includes/ad-dashboard.php';
         ?>

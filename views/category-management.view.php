@@ -62,18 +62,19 @@
                     </div>
                 </div>
                 <div class="category-management_all d-flex flex-column align-items-center">
-                    <div class="category_items p-2 my-3">
+                    <?php 
+                        foreach ($list as $category) {
+                            echo '<div class="category_items p-2 my-3">
                         <div class="row">
                             <div class="item-category_title col-4">
                                 <label for="">Danh mục</label>
-                                <h5>Tin tức</h5>
+                                <h5>'. $category['CategoryName'] .'</h5>
                             </div>
                             <div class="item_describe col-8"> <!-- Thêm lớp justify-content-center vào đây -->
                                 <label for="">Mô tả</label>
                                 <h5>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda repellendus, adipisci a illo quasi. Veritatis, cumque consequuntur, culpa quis eius ut aliquid distinctio deserunt a repudiandae eligendi itaque molestiae?</h5>
                             </div>
                         </div>
-
                         <div class="item-category_post">
                             <p>Có: ? bài viết</p>
                         </div>
@@ -82,118 +83,9 @@
                             <div class="item_fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
                             <div class="item_delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
                         </div>
-                    </div>
-
-                    <div class="category_items p-2 my-3">
-                        <div class="row">
-                            <div class="item-category_title col-4">
-                                <label for="">Danh mục</label>
-                                <h5>Tin tức</h5>
-                            </div>
-                            <div class="item_describe col-8"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Mô tả</label>
-                                <h5>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda repellendus, adipisci a illo quasi. Veritatis, cumque consequuntur, culpa quis eius ut aliquid distinctio deserunt a repudiandae eligendi itaque molestiae?</h5>
-                            </div>
-                        </div>
-
-                        <div class="item-category_post">
-                            <p>Có: ? bài viết</p>
-                        </div>
-                        <div class="item_choose d-flex flex-row justify-content-end ">
-                            <div class="item_see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="item_fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="item_delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
-
-                    <div class="category_items p-2 my-3">
-                        <div class="row">
-                            <div class="item-category_title col-4">
-                                <label for="">Danh mục</label>
-                                <h5>Tin tức</h5>
-                            </div>
-                            <div class="item_describe col-8"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Mô tả</label>
-                                <h5>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda repellendus, adipisci a illo quasi. Veritatis, cumque consequuntur, culpa quis eius ut aliquid distinctio deserunt a repudiandae eligendi itaque molestiae?</h5>
-                            </div>
-                        </div>
-
-                        <div class="item-category_post">
-                            <p>Có: ? bài viết</p>
-                        </div>
-                        <div class="item_choose d-flex flex-row justify-content-end ">
-                            <div class="item_see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="item_fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="item_delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
-
-                    <div class="category_items p-2 my-3">
-                        <div class="row">
-                            <div class="item-category_title col-4">
-                                <label for="">Danh mục</label>
-                                <h5>Tin tức</h5>
-                            </div>
-                            <div class="item_describe col-8"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Mô tả</label>
-                                <h5>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda repellendus, adipisci a illo quasi. Veritatis, cumque consequuntur, culpa quis eius ut aliquid distinctio deserunt a repudiandae eligendi itaque molestiae?</h5>
-                            </div>
-                        </div>
-
-                        <div class="item-category_post">
-                            <p>Có: ? bài viết</p>
-                        </div>
-                        <div class="item_choose d-flex flex-row justify-content-end ">
-                            <div class="item_see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="item_fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="item_delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
-
-                    <div class="category_items p-2 my-3">
-                        <div class="row">
-                            <div class="item-category_title col-4">
-                                <label for="">Danh mục</label>
-                                <h5>Tin tức</h5>
-                            </div>
-                            <div class="item_describe col-8"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Mô tả</label>
-                                <h5>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda repellendus, adipisci a illo quasi. Veritatis, cumque consequuntur, culpa quis eius ut aliquid distinctio deserunt a repudiandae eligendi itaque molestiae?</h5>
-                            </div>
-                        </div>
-
-                        <div class="item-category_post">
-                            <p>Có: ? bài viết</p>
-                        </div>
-                        <div class="item_choose d-flex flex-row justify-content-end ">
-                            <div class="item_see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="item_fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="item_delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
-
-                    <div class="category_items p-2 my-3">
-                        <div class="row">
-                            <div class="item-category_title col-4">
-                                <label for="">Danh mục</label>
-                                <h5>Tin tức</h5>
-                            </div>
-                            <div class="item_describe col-8"> <!-- Thêm lớp justify-content-center vào đây -->
-                                <label for="">Mô tả</label>
-                                <h5>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda repellendus, adipisci a illo quasi. Veritatis, cumque consequuntur, culpa quis eius ut aliquid distinctio deserunt a repudiandae eligendi itaque molestiae?</h5>
-                            </div>
-                        </div>
-
-                        <div class="item-category_post">
-                            <p>Có: ? bài viết</p>
-                        </div>
-                        <div class="item_choose d-flex flex-row justify-content-end ">
-                            <div class="item_see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                            <div class="item_fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
-                            <div class="item_delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
-                        </div>
-                    </div>
-
+                    </div>';
+                        }
+                    ?>
                 </div>
 
             </div>
