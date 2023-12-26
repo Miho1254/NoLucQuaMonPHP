@@ -28,5 +28,9 @@
         <a href="/admin/new-course">
         <div class="side-bar-item text-center pt-md-1"><i class="fa-solid fa-book-open"></i> New course</div>
         </a>
+        <!-- Danh mục 7: phần quản lí khóa học của admin -->
+        <a href="/admin/course-management">
+        <div class="side-bar-item text-center pt-md-1"><i class="fa-solid fa-music"></i> Course management</div>
+        </a>
     </div>
 </div>
