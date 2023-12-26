@@ -50,12 +50,9 @@ function getPost($id, $connection)
 
     $result = $connection->get($table, $columns, $condition, $params);
 
-    // Kiểm tra xem có kết quả trả về hay không
     if (!empty($result)) {
-        // Đăng nhập thành công, $result chứa thông tin người dùng
-        return $result[0]; // Trả về dữ liệu của người dùng, có thể là một mảng các cột khác nếu cần
+        return $result[0]; 
     } else {
-        // Đăng nhập thất bại
         return null;
     }
 }

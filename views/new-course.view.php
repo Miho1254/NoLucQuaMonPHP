@@ -39,11 +39,17 @@
                             <label class="col-md-3" for="coursename ">Tên khoá học:</label>
                             <input class="col-md-9" type="text" id="coursename" name="coursename" required>
                         </div>
-                        
+
                         <div class="row mt-3">
                             <label class="col-md-3" for="coursefather-name ">Tên khoá học cha:</label>
                             <select id="coursefather-name" name="coursefather-name" class="form-control col-md-9">
-                                <option></option>
+                                <?php
+                                //Load category đã fetch từ CSDL
+                                foreach ($coursesForView as $course) {
+                                    echo "<option>$course</option>";
+                                }
+                                ?>
+                                <option>Không có</option>
                             </select>
                         </div>
 
@@ -53,25 +59,44 @@
                         </div>
 
                         <div class="row mt-3">
-                            <label class="col-md-3" for="introduce-post-course">Bài viết giới thiệu khoá học:</label>
-                            <input class="col-md-9" type="text" id="coursename" name="coursename" required>
+                            <label class="col-md-3" for="introduce-post-course">ID bài viết giới thiệu khoá học:</label>
+                            <input class="col-md-9" type="text" id="idBaiViet" name="idBaiViet">
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="col-md-3" for="introduce-post-course">URL ảnh bìa:</label>
+                            <input class="col-md-9" type="text" id="imagePath" name="imagePath" required>
                         </div>
 
                         <div class="d-flex justify-content-end mt-2">
                             <input type="submit" name="coursesubmit" id="coursesubmit" class="btn btn-info " value="Tạo">
                         </div>
-
-                        <div class="row mt-5">
-                            <label class="col-md-3" for="courseall">Các khoá học đã tạo:</label>
-                            <textarea class="col-md-9" id="courseall" name="courseall" rows="4" required></textarea>
-
-                        </div>
+                        <input type="hidden" id="selectedCategory" name="selectedCategory">
                     </form>
                 </div>
             </div>
 
         </div>
     </div>
+
+    <script>
+        $(document).ready(function() {
+
+        });
+
+        $(document).ready(function() {
+            // Bắt sự kiện khi giá trị của select thay đổi
+            $("#coursefather-name").change(function() {
+
+                // Lấy giá trị đã chọn
+                var selectedValue = $(this).val();
+
+                // Đẩy giá trị vào trường ẩn trong form
+                $("#selectedCategory").val(selectedValue);
+            });
+        });
+    </script>
+
 </body>
 
 </html>

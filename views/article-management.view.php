@@ -77,8 +77,12 @@
             </div>
 
             <div class="i_choose d-flex flex-row justify-content-end">
-                <div class="see pl-3 pr-3"><button type="button" class="btn btn-primary"><i class="fa-solid fa-eye"></i></button></div>
-                <div class="fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
+            <div class="see pl-3 pr-3">
+            <button class="btn btn-primary"  onclick="window.location.href="/post?id=' . $post['PostID'] . '">
+                <i class="fa-solid fa-eye"></i>
+            </button>
+        </div>
+                        <div class="fix pr-3"><button type="button" class="btn btn-success"><i class="fa-solid fa-pencil"></i></button></div>
                 <div class="delete"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></div>
             </div>
         </div>';

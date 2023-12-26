@@ -33,97 +33,41 @@
                 <div class="left-content col-md-9 mt-3">
                     <div class="course_title">
                         <h2><strong>CÁC KHÓA HỌC <span style="color: #F86502"> TẠI TRUNG TÂM</span></strong></h2>
-                        <p>Trung tâm có rất nhiều khóa học khai giảng thường xuyên vào ngày 10 và 15 hàng tháng. Phụ
-                            huynh
-                            vui lòng đăng ký sớm trước ngày 5 hàng tháng để tiện cho việc sắp xếp lớp học phù hợp với sở
-                            thích và trình độ của các con!</p>
+                        <?php
+                            echo '<p>' . $des . '</p';
+                        ?>
                     </div>
 
                     <div class="course_abcxyz">
-                        <div class="row mt-4">
-                            <div class="col-4 Nhac-cu-phuong-tay">
-                                <a href="" class="image-link">
-                                    <div class="text-overlay">Nhạc cụ phương Tây</div>
-                                    <img src="../assets/images/bg4.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                            </div>
-                            <div class="col-4 Khoa-hoc-dan-piano-co-ban">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Khóa học đàn Piano cơ bản</div>
-                                    <img src="../assets/images/ba-me-kien-tri-sua-tinh-nghich-ngom-cho-con-bang-am-nhac-2697.jpg"
-                                        class="img-fluid" alt="Responsive image">
-                                </a>
-                            </div>
-                            <div class="col-4 Hoc-choi-dan-Organ-keyboard">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Học chơi đàn Organ Keyboard tại Artiest thành công</div>
-                                    <img src="../assets/images/day-dan-organ-can-tho.jpg" class="img-fluid"
-                                        alt="Responsive image">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-4 Hoc-dan-guitar">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Học đàn Guitar tại Artiest</div>
-                                    <img src="../assets/images/maxresdefault.jpg" class="img-fluid"
-                                        alt="Responsive image">
-                                </a>
-                            </div>
-                            <div class="col-4 Hoc-dan-violon">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Học đàn Violon tại Artiest</div>
-                                    <img src="../assets/images/violon.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                            </div>
-                            <div class="col-4 Hoc-danh-trong-carjon">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Học đánh trống Cajon tại Artiest</div>
-                                    <img src="../assets/images/dan-guita-5-273.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-4 Hoc-dan-ukulele">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Học đàn Ukulele tại Artiest Education</div>
-                                    <img src="../assets/images/DSC06604_grande.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                            </div>
-                            <div class="col-4 Nhac-cu-dan-toc">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Nhạc cụ dân tộc</div>
-                                    <img src="../assets/images/tải-xuống-1.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                            </div>
-                            <div class="col-4 hoc-thoi-sao">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Học thổi sáo</div>
-                                    <img src="../assets/images/images.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-4 Hoc-dan-bau">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Học đàn bầu</div>
-                                    <img src="../assets/images/tải-xuống-2.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                            </div>
-                            <div class="col-4 Hoc-dan-tranh">
-                                <a href="" class="image-link">
-                                <div class="text-overlay">Học đàn tranh</div>
-                                    <img src="../assets/images/tải-xuống-3.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                            </div>
-                        </div>
+                        <?php
+                        if (isset($courses)) {
+                            // Vòng lặp theo số hàng
+                            for ($row = 0; $row < $rows; $row++) {
+                                echo '<div class="row mt-4">';
+
+                                // Vòng lặp theo số cột
+                                for ($col = 0; $col < $columnsPerRow; $col++) {
+                                    $index = $row * $columnsPerRow + $col;
+
+                                    // Kiểm tra xem đã hết dữ liệu hay chưa
+                                    if ($index < $listLength) {
+                                        echo '<div class="col-4 Nhac-cu-phuong-tay">
+                                    <a href="/course?id=' . $courses[$index]['ID'] . '" class="image-link">
+                                        <div class="text-overlay">' . $courses[$index]['Name'] . '</div>
+                                        <img src="' . $courses[$index]['ImagePath'] . '" class="img-fluid" alt="Responsive image">
+                                    </a>
+                                </div>';
+                                    } else {
+                                        
+                                    }
+                                }
+                                echo '</div>';
+                            }
+                        }
+                        ?>
                     </div>
                 </div>
-                <?php
-                include './includes/sidebar-post.php';
-                ?>
             </div>
-
         </div>
         <?php
         include './includes/footer.php'

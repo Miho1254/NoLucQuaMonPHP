@@ -42,25 +42,12 @@
                         </div>
 
                         <div class="row mt-3">
-                            <label class="col-md-3" for="category_father-name ">Tên danh mục cha:</label>
-                            <select id="category_father-name" name="category_father-name" class="form-control col-md-9">
-                                <option></option>
-                            </select>
-                        </div>
-
-                        <div class="row mt-3">
                             <label class="col-md-3" for="category_description">Mô tả:</label>
                             <textarea class="col-md-9" id="category_description" name="category_description" rows="4" required></textarea>
                         </div>
 
                         <div class="d-flex justify-content-end mt-2">
                             <input type="submit" name="category_submit" id="category_submit" class="btn btn-info " value="Tạo">
-                        </div>
-
-                        <div class="row mt-5">
-                            <label class="col-md-3" for="category_all">Các danh mục đã tạo:</label>
-                            <textarea class="col-md-9" id="category_all" name="category_all" rows="4" required></textarea>
-
                         </div>
                     </form>
                 </div>

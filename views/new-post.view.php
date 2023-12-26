@@ -81,7 +81,6 @@
         $(document).ready(function() {
             // Bắt sự kiện click của nút "Lưu"
             $("#NewPostSubmitBtn").click(function() {
-                alert("hehe");
                 // Kích hoạt phương thức submit của form
                 $("#new-post-form").submit();
             });
