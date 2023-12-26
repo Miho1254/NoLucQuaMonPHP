@@ -33,7 +33,7 @@
             <?php
             include './includes/ad-dashboard.php';
             ?>
-            <div class="management col-9 container">
+            <div class="management col-md-9 container">
                 <div class="management_title pt-5 text-center d-flex flex-row">
                     <h2 class="pr-3 pt-1">Bài viết</h2>
                     <div class="management_btn ">

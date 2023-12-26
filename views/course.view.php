@@ -19,7 +19,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-</head>
 
 <body>
     <div class="wrapper">
@@ -56,7 +55,7 @@
                                 <a href="" class="image-link">
                                     <img src="../assets/images/bg4.jpg" class="img-fluid" alt="Responsive image">
                                 </a>
-</div>
+                            </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-4 Hoc-dan-guitar">

@@ -28,6 +28,8 @@ $routes = [
     '/admin/new-post' => 'controllers/new-post.controller.php',
     '/admin/article-management' => 'controllers/article-management.controller.php',
     '/admin/category-management' => 'controllers/category-management.controller.php',
+    '/admin/new-course' => 'controllers/new-course.cotroller.php',
+    '/admin/course-management' => 'controllers/course-management-controller.php',
     
     //Bài viết
     '/post' => 'controllers/post.controller.php',

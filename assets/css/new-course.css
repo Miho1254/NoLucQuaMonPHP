@@ -1,0 +1,33 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.course_content {
+    height: 100%;
+    width: 100%;
+}
+
+.course{
+    height: 100%;
+    width: auto;
+}
+
+.item-category_post p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1; /* Số dòng tối đa trước khi xuất hiện dấu ba chấm */
+    line-clamp: 1;
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 0 !important;
+}

@@ -28,6 +28,7 @@
         <?php
         include './includes/ad-dashboard.php';
         ?>
+        <div class="dashboard_content col-md-9"></div>
     </div>
 </body>
 

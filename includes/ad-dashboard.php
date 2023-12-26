@@ -1,4 +1,4 @@
-<div class="side-bar">
+<div class="side-bar col-md-3">
     <div class="list">
         <!-- Danh mục 1: Phần dashboard của admin -->
         <a href="/admin/dashboard">
@@ -23,6 +23,10 @@
         <!-- Danh mục 5: Phần quản lý danh mục mới của admin -->
         <a href="/admin/category-management">
         <div class="side-bar-item text-center pt-md-1"><i class="fa-solid fa-list"></i> Category management</div>
+        </a>
+        <!-- Danh mục 6: phần tạo khoá học mới của admin -->
+        <a href="/admin/new-course">
+        <div class="side-bar-item text-center pt-md-1"><i class="fa-solid fa-book-open"></i> New course</div>
         </a>
     </div>
 </div>

@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/category.css">
+    <link rel="stylesheet" href="../assets/css/new-course.css">
     <link rel="stylesheet" href="../assets/css/index.css">
-    <link rel="stylesheet" href="../assets/css/new-post.css">
     <link rel="stylesheet" href="../assets/css/admin-dashboard.css">
     <script src="../vendor/jquery-3.6.0.min.js"></script>
     <script src="../vendor/popper.min.js"></script>
@@ -29,37 +28,42 @@
         include './includes/navbar.php';
         ?>
 
-        <div class="category_content d-flex flex-row">
+        <div class="course_content d-flex flex-row">
             <?php
             include './includes/ad-dashboard.php';
             ?>
             <div class="category col-md-9 container">
-                <div class="category_input mt-5">
+                <div class="courseinput mt-5">
                     <form action="" method="post">
                         <div class="row mt-3">
-                            <label class="col-md-3" for="category_name ">Tên danh mục:</label>
-                            <input class="col-md-9" type="text" id="category_name" name="category_name" required>
+                            <label class="col-md-3" for="coursename ">Tên khoá học:</label>
+                            <input class="col-md-9" type="text" id="coursename" name="coursename" required>
                         </div>
-
+                        
                         <div class="row mt-3">
-                            <label class="col-md-3" for="category_father-name ">Tên danh mục cha:</label>
-                            <select id="category_father-name" name="category_father-name" class="form-control col-md-9">
+                            <label class="col-md-3" for="coursefather-name ">Tên khoá học cha:</label>
+                            <select id="coursefather-name" name="coursefather-name" class="form-control col-md-9">
                                 <option></option>
                             </select>
                         </div>
 
                         <div class="row mt-3">
-                            <label class="col-md-3" for="category_description">Mô tả:</label>
-                            <textarea class="col-md-9" id="category_description" name="category_description" rows="4" required></textarea>
+                            <label class="col-md-3" for="coursedescription">Mô tả:</label>
+                            <textarea class="col-md-9" id="coursedescription" name="coursedescription" rows="4" required></textarea>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="col-md-3" for="introduce-post-course">Bài viết giới thiệu khoá học:</label>
+                            <input class="col-md-9" type="text" id="coursename" name="coursename" required>
                         </div>
 
                         <div class="d-flex justify-content-end mt-2">
-                            <input type="submit" name="category_submit" id="category_submit" class="btn btn-info " value="Tạo">
+                            <input type="submit" name="coursesubmit" id="coursesubmit" class="btn btn-info " value="Tạo">
                         </div>
 
                         <div class="row mt-5">
-                            <label class="col-md-3" for="category_all">Các danh mục đã tạo:</label>
-                            <textarea class="col-md-9" id="category_all" name="category_all" rows="4" required></textarea>
+                            <label class="col-md-3" for="courseall">Các khoá học đã tạo:</label>
+                            <textarea class="col-md-9" id="courseall" name="courseall" rows="4" required></textarea>
 
                         </div>
                     </form>

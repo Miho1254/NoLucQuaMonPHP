@@ -11,7 +11,7 @@ html, body {
 
 /* Side bar */
 .side-bar {
-    width: 20%;
+    width: auto;
     height: 100%;
     background-color: rgb(54, 68, 82);
 }
