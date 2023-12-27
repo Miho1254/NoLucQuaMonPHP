@@ -10,6 +10,7 @@
 - [PHP 8.0](https://www.php.net/): Backend chính cho website
 
 <h3> Front end </h3>
+
 - [richtexteditor](https://richtexteditor.com/): Plugin sử dụng Rich text editor
 - [Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/): CSS Framework giúp phát triển trang web nhanh gọn lẹ nhất là khi deadline là 30/12/2023???
 - [Ajax](https://google.com): Hình như chả ai biết dùng thằng này nhưng vẫn ghi vào cho đẹp.
