@@ -55,7 +55,7 @@ function addNewCourses($name, $des, $imagePath, $fatherCourse, $idBaiviet, $conn
     }
 
     // Kiểm tra và chuyển đổi biến thành NULL nếu nó rỗng
-    $fatherCourse = empty($fatherCourse) ? 'NULL' : $fatherCourse;
+    $fatherCourse = empty($courseID) ? 'NULL' : $courseID;
     $idBaiviet = empty($idBaiviet) ? 'NULL' : $idBaiviet;
 
     // Query chèn dữ liệu

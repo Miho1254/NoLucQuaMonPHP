@@ -34,7 +34,7 @@
                     <div class="course_title">
                         <h2><strong>CÁC KHÓA HỌC <span style="color: #F86502"> TẠI TRUNG TÂM</span></strong></h2>
                         <?php
-                            echo '<p>' . $des . '</p';
+                        echo '<p>' . $des . '</p';
                         ?>
                     </div>
 
@@ -49,22 +49,25 @@
                                 for ($col = 0; $col < $columnsPerRow; $col++) {
                                     $index = $row * $columnsPerRow + $col;
 
-                                    // Kiểm tra xem đã hết dữ liệu hay chưa
-                                    if ($index < $listLength) {
+                                    // Kiểm tra xem đã hết dữ liệu hay chưa và kiểm tra xem phần tử có tồn tại hay không
+                                    if ($index < $listLength && isset($courses[$index])) {
                                         echo '<div class="col-4 Nhac-cu-phuong-tay">
-                                    <a href="/course?id=' . $courses[$index]['ID'] . '" class="image-link">
-                                        <div class="text-overlay">' . $courses[$index]['Name'] . '</div>
-                                        <img src="' . $courses[$index]['ImagePath'] . '" class="img-fluid" alt="Responsive image">
-                                    </a>
-                                </div>';
+                    <a href="/course?id=' . $courses[$index]['ID'] . '" class="image-link">
+                        <div class="text-overlay">' . $courses[$index]['Name'] . '</div>
+                        <img src="' . $courses[$index]['ImagePath'] . '" class="img-fluid" alt="Responsive image">
+                    </a>
+                </div>';
                                     } else {
-                                        
+                                        // Xử lý trường hợp không có dữ liệu
+                                        echo '<div class="col-4"></div>';
                                     }
                                 }
+
                                 echo '</div>';
                             }
                         }
                         ?>
+
                     </div>
                 </div>
             </div>

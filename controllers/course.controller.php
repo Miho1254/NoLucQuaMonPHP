@@ -24,8 +24,8 @@ if (isset($params)) {
         }
 
         //Nếu khoá học đó có bài viết đích thì href đến đó luôn.
-        if (!empty($course["PostID"])) {
-            header("Location:/post?id=" + $course["PostID"]);
+        if (!empty($courses["PostID"])) {
+            header('Location: /post?id=' . $courses['PostID']);
             die();
         }
 
@@ -39,7 +39,7 @@ if (isset($params)) {
 
         // Tính số hàng cần tạo
         $rows = ceil($listLength / $columnsPerRow);
-
+        
         $courses = getChildCourses($courses['ID'], $connection);
 
         //Trả dữ liệu về view

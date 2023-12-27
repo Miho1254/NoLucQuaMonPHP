@@ -43,13 +43,13 @@
                         <div class="row mt-3">
                             <label class="col-md-3" for="coursefather-name ">Tên khoá học cha:</label>
                             <select id="coursefather-name" name="coursefather-name" class="form-control col-md-9">
+                                <option>Không có</option>
                                 <?php
                                 //Load category đã fetch từ CSDL
                                 foreach ($coursesForView as $course) {
                                     echo "<option>$course</option>";
                                 }
                                 ?>
-                                <option>Không có</option>
                             </select>
                         </div>
 
@@ -67,11 +67,10 @@
                             <label class="col-md-3" for="introduce-post-course">URL ảnh bìa:</label>
                             <input class="col-md-9" type="text" id="imagePath" name="imagePath" required>
                         </div>
-
+                        <input type="hidden" id="selectedCategory" name="selectedCategory">
                         <div class="d-flex justify-content-end mt-2">
                             <input type="submit" name="coursesubmit" id="coursesubmit" class="btn btn-info " value="Tạo">
                         </div>
-                        <input type="hidden" id="selectedCategory" name="selectedCategory">
                     </form>
                 </div>
             </div>
