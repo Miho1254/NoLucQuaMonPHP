@@ -92,12 +92,6 @@ Chứa các điều hướng server của Apache.
 6. Truy cập vào `domain.com/php/createnewDB.php` rồi chờ nó tạo CSDL mới.
 7. Chỉnh sửa dòng `$disable_create_new_database` thành `true` tránh bị hacker xâm nhập.
 
-<h3> Setup administrator </h3>
-
-8. Chỉnh sửa dòng `$disable_create_new_admin` thành `false` 
-9. Truy cập vào `domain.com/php/createnewAdmin.php` rồi nhập info admin mới.
-10. Chỉnh sửa dòng `$disable_create_new_admin` thành `true` tránh bị hacker xâm nhập.
-
 <strong>!! Nếu deploy code trên XAMPP / WAMP thì nhớ để ở thư mục `root (htdocs)`. Tuyệt đối không để trong `htdocs/thu_muc/`</strong>
 ## Tài liệu học tập
 
